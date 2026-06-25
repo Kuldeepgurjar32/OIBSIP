@@ -1,24 +1,24 @@
 # Oasis Infobyte Data Science Internship - OIBSIP
 
 This repository contains the projects completed during my Data Science internship at Oasis Infobyte.
-
 ---
+## Detailed Project Summaries
+### 🌸 Task 1: Iris Flower Classification
+* *Objective:* Built a machine learning model to classify Iris flowers into three distinct species based on their sepal and petal measurements.
+* *Approach:* Utilized Python's scikit-learn library to train a classification algorithm, splitting the dataset into training and testing sets to ensure robust evaluation.
 
-## Task 1: Iris Flower Classification
+### 📈 Task 2: Unemployment Analysis
+* *Objective:* Analyzed historical economic datasets to observe and interpret fluctuations in unemployment rates, particularly during major economic shifts like the COVID-19 pandemic.
+* *Approach:* Handled text/numerical data cleaning and performed Exploratory Data Analysis (EDA) using pandas and data visualization libraries to identify key regional trends.
 
-### Project Description
-The goal of this project is to build a Machine Learning model that can classify Iris flowers into three distinct species (Setosa, Versicolor, and Virginica) based on their physical measurements (sepal length, sepal width, petal length, and petal width).
+### 🚗 Task 3: Car Price Prediction
+* *Objective:* Developed a predictive model to estimate the resale value of automobiles based on key features like mileage, fuel type, age, and transmission type.
+* *Approach:* Performed data preparation and One-Hot Encoding on categorical attributes, then trained a *Linear Regression* model to map features to continuous pricing values.
 
-### Tech Stack Used
-* *Language:* Python
-* *Environment:* Jupyter Notebook / Google Colab
-* *Libraries:* Pandas, NumPy, Scikit-Learn, Matplotlib, Seaborn
+### 📧 Task 4: Email Spam Detection
+* *Objective:* Built a Natural Language Processing (NLP) text classifier capable of distinguishing between legitimate emails (ham) and malicious/junk messages (spam).
+* *Approach:* Preprocessed text messages using CountVectorizer (Bag-of-Words) and trained a *Multinomial Naive Bayes* classifier, achieving a high prediction accuracy of *98%*.
 
-### How to Run the Project
-1. Download the KULDEEP GURJAR TASK 1.ipynb file.
-2. Open it using Jupyter Notebook, JupyterLab, or upload it to Google Colab.
-3. Run all the code cells sequentially to view the data analysis, visualizations, and model training steps.
-
-### Project Demonstration
-* Demo Link: [Click Here to View Google Colab Notebook](https://colab.research.google.com/drive/1ysz17v0PBPu2AMVC-2tQknNbS7ehpugG?usp=drive_link)
-
+### 📊 Task 5: Sales Prediction
+* *Objective:* Forecasted upcoming product sales volume by analyzing corporate advertising budgets allocated across multiple channels.
+* *Approach:* Evaluated continuous marketing expenditures across TV, Radio, and Newspaper mediums using a *Linear Regression* framework to optimize marketing budget allocation
